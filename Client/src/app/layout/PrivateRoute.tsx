@@ -5,27 +5,36 @@ import {
   RouteComponentProps,
   RouteProps,
 } from "react-router-dom";
+import { toast } from "react-toastify";
 import { useAppSelector } from "../store/configureStore";
 
 interface Props extends RouteProps {
   component: ComponentType<RouteComponentProps<any>> | ComponentType<any>;
+  roles?: string[];
 }
 
-const PrivateRoute = ({ component: Component, ...rest }: Props) => {
+const PrivateRoute = ({ component: Component, roles, ...rest }: Props) => {
   const { user } = useAppSelector((state) => state.account);
 
   return (
     <Route
       {...rest}
-      render={(props) =>
-        user ? (
-          <Component {...props} />
-        ) : (
-          <Redirect
-            to={{ pathname: "/login", state: { from: props.location } }}
-          />
-        )
-      }
+      render={(props) => {
+        if (!user) {
+          return (
+            <Redirect
+              to={{ pathname: "/login", state: { from: props.location } }}
+            />
+          );
+        }
+
+        if (roles && !roles?.some((x) => user.roles?.includes(x))) {
+          toast.error("Not authorized to access this area");
+          return <Redirect to={{ pathname: "/catalog" }} />;
+        }
+
+        return <Component {...props} />;
+      }}
     />
   );
 };

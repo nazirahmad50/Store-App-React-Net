@@ -176,3 +176,11 @@ C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\ob
 C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\Npgsql.dll
 C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\CloudinaryDotNet.dll
+C:\Users\Nazir\Documents\Work\Javascript\React\Udemy - e-commerce by Neil\API\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
